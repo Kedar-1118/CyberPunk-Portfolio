@@ -1,0 +1,515 @@
+{
+    "personalInfo": {
+        "name": "Kedar Dhotre",
+        "title": "Computer Science Student",
+        "tagline": "Learning, Building, and Innovating every day",
+        "bio": "I’m a Computer Science student at Walchand College of Engineering, Sangli, who enjoys creating practical solutions using web technologies and exploring machine learning fundamentals. I actively take part in hackathons, cloud initiatives, and tech communities to sharpen my skills and grow as a developer.",
+        "avatar": "/assets/cyberpunk-avatar.png",
+        "email": "kedardhotre23@gmail.com",
+        "phone": "+91 7558770101",
+        "location": "Satara, Maharashtra, India",
+        "resume": "/resume.pdf"
+    },
+    "skills": [
+        {
+            "name": "C++",
+            "particles": 25,
+            "category": "language",
+            "icon": "⚡",
+            "desc": "High-performance programming language used for system/software, game development, and more.",
+            "link": "https://isocpp.org/"
+        },
+        {
+            "name": "C",
+            "particles": 20,
+            "category": "language",
+            "icon": "💡",
+            "desc": "General-purpose, procedural computer programming language supporting structured programming.",
+            "link": "https://en.cppreference.com/w/c/language"
+        },
+        {
+            "name": "JavaScript",
+            "particles": 23,
+            "category": "language",
+            "icon": "☕",
+            "desc": "The programming language of the Web, enabling dynamic content and interaction.",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+            "name": "Python",
+            "particles": 18,
+            "category": "language",
+            "icon": "🐍",
+            "desc": "High-level programming language known for readability and versatility in AI, web, and more.",
+            "link": "https://www.python.org/"
+        },
+        {
+            "name": "Java",
+            "particles": 15,
+            "category": "language",
+            "icon": "🍵",
+            "desc": "Class-based, object-oriented programming language designed to have as few implementation dependencies as possible.",
+            "link": "https://dev.java/"
+        },
+        {
+            "name": "React",
+            "particles": 23,
+            "category": "frontend",
+            "icon": "⚛️",
+            "desc": "The library for web and native user interfaces.",
+            "link": "https://react.dev/"
+        },
+        {
+            "name": "HTML/CSS",
+            "particles": 25,
+            "category": "frontend",
+            "icon": "🎨",
+            "desc": "Standard markup and style sheet languages for creating web pages.",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+            "name": "TailwindCSS",
+            "particles": 23,
+            "category": "frontend",
+            "icon": "🌈",
+            "desc": "A utility-first CSS framework packed with classes to build custom designs directly in your markup.",
+            "link": "https://tailwindcss.com/"
+        },
+        {
+            "name": "Node.js",
+            "particles": 20,
+            "category": "backend",
+            "icon": "🟢",
+            "desc": "JavaScript runtime built on Chrome's V8 JavaScript engine.",
+            "link": "https://nodejs.org/"
+        },
+        {
+            "name": "Express.js",
+            "particles": 19,
+            "category": "backend",
+            "icon": "🚀",
+            "desc": "Fast, unopinionated, minimalist web framework for Node.js.",
+            "link": "https://expressjs.com/"
+        },
+        {
+            "name": "MongoDB",
+            "particles": 18,
+            "category": "database",
+            "icon": "🍃",
+            "desc": "The leading modern, general purpose, distributed, document-based database.",
+            "link": "https://www.mongodb.com/"
+        },
+        {
+            "name": "MySQL",
+            "particles": 16,
+            "category": "database",
+            "icon": "🗄️",
+            "desc": "The world's most popular open source database.",
+            "link": "https://www.mysql.com/"
+        },
+        {
+            "name": "Git & GitHub",
+            "particles": 23,
+            "category": "tools",
+            "icon": "🔀",
+            "desc": "Version control system and platform for software development and version control using Git.",
+            "link": "https://git-scm.com/"
+        },
+        {
+            "name": "Docker",
+            "particles": 14,
+            "category": "tools",
+            "icon": "🐳",
+            "desc": "Platform designed to help developers build, share, and run applications in containers.",
+            "link": "https://www.docker.com/"
+        },
+        {
+            "name": "VS Code",
+            "particles": 25,
+            "category": "tools",
+            "icon": "🖥️",
+            "desc": "Code editor redefined and optimized for building and debugging modern web and cloud applications.",
+            "link": "https://code.visualstudio.com/"
+        }
+    ],
+    "rotatingSkills": [
+        "Full Stack Developer",
+        "ML Engineer",
+        "Open Source Contributor",
+        "Problem Solver",
+        "Cloud Learner"
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "CO-Create",
+            "description": "A real-time collaborative content sharing and editing platform using Socket.IO for instant updates. Ideal for live editing or co-authoring tools.",
+            "image": "https://placehold.co/600x400?text=CO-Create",
+            "tags": [
+                "MongoDB",
+                "Express.js",
+                "React",
+                "Node.js",
+                "Socket.io"
+            ],
+            "github": "https://github.com/Kedar-1118/CoCreate",
+            "demo": "",
+            "category": "fullstack"
+        },
+        {
+            "id": 2,
+            "title": "OpenSourceMatchmaker",
+            "description": "Developer-centric platform to match contributors with open-source projects based on skills, improving project discovery and onboarding.",
+            "image": "https://placehold.co/600x400?text=OpenSourceMatchmaker",
+            "tags": [
+                "MongoDB",
+                "Express.js",
+                "React",
+                "Node.js",
+                "AI",
+                "GitHub API"
+            ],
+            "github": "https://github.com/Kedar-1118/openSourceMatchmaker",
+            "demo": "",
+            "category": "fullstack"
+        },
+        {
+            "id": 3,
+            "title": "SocialPulse",
+            "description": "Social media analytics dashboard for Instagram and YouTube using sentiment analysis and trend-based content recommendations, improving insights by 25–30%.",
+            "image": "https://placehold.co/600x400?text=SocialPulse",
+            "tags": [
+                "React",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "AI",
+                "Youtube Analytics API",
+                "Youtube Data API",
+                "Sentiment Analysis",
+                "Instagram Analytics API"
+            ],
+            "github": "https://github.com/Kedar-1118/Final-mini",
+            "demo": "",
+            "category": "blockchain"
+        }
+    ],
+    "experience": [
+        {
+            "id": 1,
+            "title": "Management Executive",
+            "company": "GDG WCE Sangli",
+            "period": "June 2024 - May 2025",
+            "description": "Worked as a management executive at GDG WCE Sangli, helping organize and execute technical events and conferences.",
+            "achievements": [
+                "Successfully hosted AIML bootcamp",
+                "Coordinated at International Conference on Communication"
+            ]
+        }
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "title": "2 ⭐ at CodeChef",
+            "issuer": "CodeChef",
+            "date": "2024",
+            "image": "https://placehold.co/600x400?text=CodeChef",
+            "credentialId": ""
+        },
+        {
+            "id": 2,
+            "title": "Finalist - WCE Hackathon 2024",
+            "issuer": "Walchand College of Engineering",
+            "date": "2024",
+            "image": "https://placehold.co/600x400?text=Hackathon",
+            "credentialId": ""
+        },
+        {
+            "id": 3,
+            "title": "100+ LeetCode Problems Solved",
+            "issuer": "LeetCode",
+            "date": "2024",
+            "image": "https://placehold.co/600x400?text=LeetCode",
+            "credentialId": ""
+        },
+        {
+            "id": 4,
+            "title": "Google Cloud Campaign 2024",
+            "issuer": "Google Cloud",
+            "date": "2024",
+            "image": "https://placehold.co/600x400?text=Google+Cloud",
+            "credentialId": ""
+        }
+    ],
+    "socialLinks": [
+        {
+            "name": "GitHub",
+            "icon": "FaGithub",
+            "url": "https://github.com/kedardhotre"
+        },
+        {
+            "name": "LinkedIn",
+            "icon": "FaLinkedin",
+            "url": "https://linkedin.com/in/kedar-dhotre"
+        },
+        {
+            "name": "Email",
+            "icon": "FaEnvelope",
+            "url": "mailto:kedardhotre23@gmail.com"
+        }
+    ],
+    "learningGoals": [
+        {
+            "id": 1,
+            "skill": "Advanced React Patterns",
+            "progress": 75,
+            "category": "Frontend",
+            "icon": "⚛️"
+        },
+        {
+            "id": 2,
+            "skill": "Kubernetes & DevOps",
+            "progress": 45,
+            "category": "Cloud",
+            "icon": "☸️"
+        },
+        {
+            "id": 3,
+            "skill": "System Design",
+            "progress": 40,
+            "category": "Architecture",
+            "icon": "🏗️"
+        },
+        {
+            "id": 4,
+            "skill": "ML Development",
+            "progress": 50,
+            "category": "ML",
+            "icon": "🤖"
+        }
+    ],
+    "timelineMilestones": [
+        {
+            "id": 1,
+            "year": "2024",
+            "title": "GDG Management Executive",
+            "description": "Joined GDG WCE Sangli as Management Executive, organizing tech events and bootcamps",
+            "type": "role",
+            "icon": "👔"
+        },
+        {
+            "id": 2,
+            "year": "2024",
+            "title": "Hackathon Finalist",
+            "description": "Reached finals in WCE Hackathon 2024 with innovative project",
+            "type": "achievement",
+            "icon": "🏆"
+        },
+        {
+            "id": 3,
+            "year": "2024",
+            "title": "Google Cloud Campaign",
+            "description": "Completed Google Cloud Campaign 2024, earning multiple certifications",
+            "type": "certification",
+            "icon": "☁️"
+        },
+        {
+            "id": 4,
+            "year": "2024",
+            "title": "2★ CodeChef",
+            "description": "Achieved 2-star rating on CodeChef through consistent competitive programming",
+            "type": "achievement",
+            "icon": "⭐"
+        },
+        {
+            "id": 5,
+            "year": "2024",
+            "title": "100+ LeetCode Problems",
+            "description": "Solved over 100 problems on LeetCode, strengthening DSA skills",
+            "type": "milestone",
+            "icon": "💻"
+        }
+    ],
+    "techStack": {
+        "frontend": [
+            {
+                "name": "React",
+                "logo": "⚛️",
+                "color": "#61DAFB"
+            },
+            {
+                "name": "TailwindCSS",
+                "logo": "🌈",
+                "color": "#06B6D4"
+            },
+            {
+                "name": "HTML/CSS",
+                "logo": "🎨",
+                "color": "#E34F26"
+            },
+            {
+                "name": "JavaScript",
+                "logo": "💛",
+                "color": "#F7DF1E"
+            }
+        ],
+        "backend": [
+            {
+                "name": "Node.js",
+                "logo": "🟢",
+                "color": "#339933"
+            },
+            {
+                "name": "Express.js",
+                "logo": "🚀",
+                "color": "#000000"
+            },
+            {
+                "name": "Python",
+                "logo": "🐍",
+                "color": "#3776AB"
+            }
+        ],
+        "database": [
+            {
+                "name": "MongoDB",
+                "logo": "🍃",
+                "color": "#47A248"
+            },
+            {
+                "name": "MySQL",
+                "logo": "🗄️",
+                "color": "#4479A1"
+            }
+        ],
+        "tools": [
+            {
+                "name": "Git & GitHub",
+                "logo": "🔀",
+                "color": "#F05032"
+            },
+            {
+                "name": "Docker",
+                "logo": "🐳",
+                "color": "#2496ED"
+            },
+            {
+                "name": "VS Code",
+                "logo": "🖥️",
+                "color": "#007ACC"
+            }
+        ]
+    },
+    "commandPaletteActions": [
+        {
+            "id": "home",
+            "label": "Go to Home",
+            "action": "scroll",
+            "target": "hero"
+        },
+        {
+            "id": "about",
+            "label": "Go to About",
+            "action": "scroll",
+            "target": "about"
+        },
+        {
+            "id": "skills",
+            "label": "Go to Skills",
+            "action": "scroll",
+            "target": "skills"
+        },
+        {
+            "id": "projects",
+            "label": "Go to Projects",
+            "action": "scroll",
+            "target": "projects"
+        },
+        {
+            "id": "experience",
+            "label": "Go to Experience",
+            "action": "scroll",
+            "target": "experience"
+        },
+        {
+            "id": "contact",
+            "label": "Go to Contact",
+            "action": "scroll",
+            "target": "contact"
+        },
+        {
+            "id": "theme",
+            "label": "Toggle Theme",
+            "action": "theme",
+            "target": null
+        },
+        {
+            "id": "retro",
+            "label": "Toggle Retro Mode",
+            "action": "retro",
+            "target": null
+        }
+    ],
+    "themes": {
+        "cyberpunk": {
+            "name": "Cyberpunk",
+            "colors": {
+                "primary": "#8b5cf6",
+                "secondary": "#ffffff",
+                "accent": "#39ff14",
+                "background": "#000000",
+                "text": "#e2e8f0"
+            }
+        },
+        "midnight": {
+            "name": "Midnight",
+            "colors": {
+                "primary": "#8b5cf6",
+                "secondary": "#ff006e",
+                "accent": "#00f3ff",
+                "background": "#0a0e27",
+                "text": "#f8fafc"
+            }
+        },
+        "synthwave": {
+            "name": "Synthwave",
+            "colors": {
+                "primary": "#ff006e",
+                "secondary": "#ffbe0b",
+                "accent": "#8338ec",
+                "background": "#2b213a",
+                "text": "#fae1dd"
+            }
+        },
+        "matrix": {
+            "name": "Matrix",
+            "colors": {
+                "primary": "#00ff41",
+                "secondary": "#008f11",
+                "accent": "#0d0208",
+                "background": "#0d0208",
+                "text": "#00ff41"
+            }
+        },
+        "ocean": {
+            "name": "Ocean",
+            "colors": {
+                "primary": "#48cae4",
+                "secondary": "#0077b6",
+                "accent": "#90e0ef",
+                "background": "#023e8a",
+                "text": "#caf0f8"
+            }
+        },
+        "minimal": {
+            "name": "Minimal",
+            "colors": {
+                "primary": "#18181b",
+                "secondary": "#52525b",
+                "accent": "#000000",
+                "background": "#ffffff",
+                "text": "#18181b"
+            }
+        }
+    }
+}
