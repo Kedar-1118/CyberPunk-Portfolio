@@ -8,7 +8,7 @@ const SpotifyWidget = () => {
     const [song, setSong] = useState({
         title: "Cyberpunk 2077 Theme",
         artist: "Hyper Corp",
-        albumArt: "https://placehold.co/100x100/8b5cf6/ffffff?text=CP2077",
+        albumArt: import.meta.env.VITE_GOOGLE_DRIVE_ALBUM_ART_URL || "https://placehold.co/400x400?text=Cyberpunk+Art",
         progress: 30,
         duration: 180
     });
@@ -42,7 +42,7 @@ const SpotifyWidget = () => {
                     animate={{ rotate: isPlaying ? 360 : 0 }}
                     transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
                 >
-                    <img src={song.albumArt} alt="Album Art" className="w-full h-full object-cover" />
+                    <img src={song.albumArt || "https://placehold.co/400x400?text=Cyberpunk+Art"} alt="Album Art" className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
                         <div className="w-2 h-2 bg-black rounded-full"></div>
                     </div>

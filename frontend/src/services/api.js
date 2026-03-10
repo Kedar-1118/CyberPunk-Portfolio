@@ -1,5 +1,6 @@
 
-const API_URL = `${import.meta.env.VITE_API_URL}/api` || "http://localhost:5000/api";
+const VITE_API_URL = import.meta.env.VITE_API_URL;
+const API_URL = (VITE_API_URL ? `${VITE_API_URL}/api` : "http://localhost:5000/api");
 
 export const fetchPortfolioData = async () => {
     const response = await fetch(`${API_URL}/data`);

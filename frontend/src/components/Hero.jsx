@@ -66,7 +66,7 @@ const Hero = () => {
                         >
                             I'm{' '}
                             <span className="bg-gradient-to-r from-neon-purple via-neon-pink to-neon-blue bg-clip-text text-transparent animate-gradient-shift bg-[length:200%_auto] text-glow">
-                                <GlitchText text={personalInfo.name} />
+                                <GlitchText text={personalInfo?.name || "Kedar Dhotre"} />
                             </span>
                         </motion.h1>
 
@@ -93,7 +93,7 @@ const Hero = () => {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 1 }}
                         >
-                            {personalInfo.tagline}
+                            {personalInfo?.tagline}
                         </motion.p>
 
                         {/* CTA Buttons */}
@@ -164,11 +164,11 @@ const Hero = () => {
                                 <div className="absolute inset-0 bg-gradient-to-br from-neon-purple/20 to-neon-pink/20"></div>
                                 <img
                                     src="/assets/cyberpunk-avatar.png"
-                                    alt={personalInfo.name}
+                                    alt={personalInfo?.name}
                                     className="w-full h-full object-cover"
                                     onError={(e) => {
                                         // Fallback to original if file missing
-                                        e.target.src = personalInfo.avatar;
+                                        e.target.src = personalInfo?.avatar || "/assets/cyberpunk-avatar.png";
                                     }}
                                 />
                             </div>

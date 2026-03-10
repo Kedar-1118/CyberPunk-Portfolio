@@ -53,8 +53,8 @@ const About = () => {
                                 <div className="relative aspect-square overflow-hidden clip-path-hexagon border-[3px] border-neon-cyan/50 bg-black/50 backdrop-blur-sm p-2 hover:border-neon-pink transition-colors duration-500">
                                     <div className="absolute inset-0 bg-neon-cyan/10 animate-pulse"></div>
                                     <img
-                                        src={personalInfo.avatar}
-                                        alt={personalInfo.name}
+                                        src={personalInfo?.avatar || "/assets/cyberpunk-avatar.png"}
+                                        alt={personalInfo?.name}
                                         className="w-full h-full object-cover clip-path-hexagon filter contrast-125 grayscale-[0.5] group-hover:grayscale-0 transition-all duration-500"
                                     />
                                     {/* Tech Overlay Lines */}
@@ -90,7 +90,7 @@ const About = () => {
                                 <div className="font-mono space-y-6 text-gray-300">
                                     <p className="text-lg leading-relaxed relative z-10">
                                         <span className="text-neon-pink mr-2">root@portfolio:~$</span>
-                                        {personalInfo.bio}
+                                        {personalInfo?.bio}
                                     </p>
 
                                     {/* Stats Grid */}

@@ -38,7 +38,7 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                             {/* Image */}
                             <div className="relative h-80">
                                 <img
-                                    src={project.image}
+                                    src={project.image || `https://via.placeholder.com/800x400/8b5cf6/ffffff?text=${encodeURIComponent(project.title)}`}
                                     alt={project.title}
                                     className="w-full h-full object-cover"
                                     onError={(e) => {
